@@ -269,7 +269,7 @@ class RxCommandSync<TParam, TResult> extends RxCommand<TParam, TResult>
           _canExecuteSubject.add(false);
         }
 
-        _commandResultsSubject.add(new  CommandResult<TResult>(null,null,true));                 
+        _commandResultsSubject.add(const  CommandResult<TResult>(null,null,true));                 
 
         try {
           final  result = _func(param);
