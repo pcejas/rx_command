@@ -13,9 +13,9 @@ environment:
 dependencies:
   rxdart: ^0.18.0
   quiver_hashcode: ^2.0.0
-  json_annotation: ^0.2.3
+  json_annotation: ^1.1.0
 
 dev_dependencies:
-  quiver: ^0.29.0
+  quiver: ^2.0.0+1
   flutter_test:
     sdk: flutter
